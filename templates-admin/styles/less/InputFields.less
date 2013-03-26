@@ -149,14 +149,37 @@
 .InputfieldFileInfo:hover{
 	border-color: @adminAccentDark;
 }
-.InputfieldButton, .InputfieldSubmit{
+// .InputfieldButton, .InputfieldSubmit{
+// 	.ui-widget-content{
+// 		padding-bottom: 12px;
+// 		border-top: 1px solid @grayLight;
+// 		.box-shadow( 0 0 5px @grayLighter );
+// 		.ui-button{
+// 			float: right;
+// 		}
+// 	}
+// }
+
+#ProcessPageEdit > .Inputfields{
+	overflow: hidden;
+	padding: 13px 10px;
+	border: 1px solid @grayLight!important;
+	.box-shadow( 0 0 5px @grayLighter );
+	.ui-button{
+		float: right;
+		margin: 0;
+	}
+	> .Inputfield{
+		float: right;
+		clear: none;
+		margin: 0;
+		.box-shadow( none );
+	}
 	.ui-widget-content{
-		padding-bottom: 12px;
-		border-top: 1px solid @grayLight;
-		.box-shadow( 0 0 5px @grayLighter );
-		.ui-button{
-			float: right;
-		}
+		padding: 0;
+
+		border: none;
+		margin: 0;
 	}
 }
 
