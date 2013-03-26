@@ -155,10 +155,11 @@
 		padding-bottom: 12px;
 		border-top: 1px solid @grayLight;
 		.box-shadow( 0 0 5px @grayLighter );
-		.ui-button{
-			float: right;
-			margin: 0;
-		}
+		// .ui-button{
+		// 	float: right;
+		// 	margin: 0;
+		// }
+
 	}
 }
 
@@ -167,21 +168,32 @@
 	padding: 13px 10px;
 	border: 1px solid @grayLight!important;
 	.box-shadow( 0 0 5px @grayLighter );
-	.ui-button{
-		float: right;
-		margin: 0;
+	#submit_save{
+		float: none!important;
 	}
 	> .Inputfield{
-		float: right;
+		float: left;
 		clear: none;
 		margin: 0;
 		.box-shadow( none );
+
 	}
 	.ui-widget-content{
 		padding: 0;
 		.box-shadow( none );
 		border: none;
 		margin: 0;
+		label{
+			padding: 0.6em;	
+			float: right;
+		}
+		select{
+			margin: 0;
+		}
+		label, input{
+			margin: 0.1em;
+			vertical-align: text-top;
+		}
 	}
 }
 
