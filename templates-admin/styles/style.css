@@ -448,11 +448,11 @@ body.modal#metro_pw #sidebar,body.modal#metro_pw #submit_save_top,body.modal#met
 #metro_pw input#ProcessPageSearchQuery{margin:22px 0 0 0;float:right;height:21px;line-height:21px;-webkit-box-shadow:inset 0 0 3px #000000;-moz-box-shadow:inset 0 0 3px #000000;box-shadow:inset 0 0 3px #000000;outline:none;border-color:#111;padding:4px 12px;width:192px;text-align:right;opacity:1!important;color:#999999;background:#111;}
 #metro_pw input#ProcessPageSearchQuery:focus{border-color:#3399ff;color:#222222;background:#fff;-webkit-box-shadow:0 0 3px #3399ff;-moz-box-shadow:0 0 3px #3399ff;box-shadow:0 0 3px #3399ff;}
 #metro_pw .search.active .searchform{display:block;}
-#metro_pw .WireTabs{left:0;margin:0 0 20px 0;list-style:none;overflow:hidden;}#metro_pw .WireTabs li{padding:0;display:block!important;}#metro_pw .WireTabs li a{color:#999;border:1px solid transparent;line-height:30px;padding:0 8px;display:block!important;float:left;margin:0 8px 0 0;font-weight:bold;text-transform:uppercase;}
+#metro_pw .WireTabs{left:0;margin:0 0 20px 0;list-style:none;overflow:hidden;padding:13px 10px;border:1px solid #dddddd;background:#fff;-webkit-box-shadow:0 0 5px #eeeeee;-moz-box-shadow:0 0 5px #eeeeee;box-shadow:0 0 5px #eeeeee;}#metro_pw .WireTabs li{padding:0;display:block!important;}#metro_pw .WireTabs li a{color:#999;border:1px solid transparent;line-height:30px;padding:0 8px;display:block!important;float:left;margin:0 8px 0 0;font-weight:bold;text-transform:uppercase;}
 #metro_pw .WireTabs li a:hover{color:#222222;}
 #metro_pw .WireTabs li a.on:hover,#metro_pw .WireTabs li a.on{background:#3399ff;border-color:#0a85ff;color:#fff;}
 #metro_pw .WireTabs button{float:right;margin:0!important;}
-#metro_pw .fixedNav .WireTabs{position:fixed;left:0;right:0;z-index:100;background:#fff;-webkit-box-shadow:0 0 6px #dddddd;-moz-box-shadow:0 0 6px #dddddd;box-shadow:0 0 6px #dddddd;max-width:1200px;width:auto;padding:8px;margin:0 auto;top:0;}
+#metro_pw .fixedNav .WireTabs{position:fixed;left:0;right:0;z-index:100;background:#fff;-webkit-box-shadow:0 0 6px #dddddd;-moz-box-shadow:0 0 6px #dddddd;box-shadow:0 0 6px #dddddd;max-width:1200px;width:auto;margin:0 auto;top:-1px;}
 #metro_pw #breadcrumbs{padding:0;margin:0;list-style:none;overflow:hidden;}#metro_pw #breadcrumbs li{display:inline-block;}#metro_pw #breadcrumbs li a{color:#999999;font-size:11px;padding:0 8px 0 24px;font-weight:bold;display:block;line-height:30px;position:relative;text-transform:uppercase;}#metro_pw #breadcrumbs li a:after,#metro_pw #breadcrumbs li a:before{content:"";display:block;width:0;height:0;border-top:17px solid transparent;border-bottom:17px solid transparent;border-left:13px solid #d0d0d0;position:absolute;top:-2px;right:-14px;z-index:2;}
 #metro_pw #breadcrumbs li a:before{right:-13px;z-index:5;border-left-color:#eee;}
 #metro_pw #breadcrumbs li a:hover{color:#fff;border-color:#0a85ff;background:#3399ff;}
@@ -497,7 +497,7 @@ body.modal#metro_pw #sidebar,body.modal#metro_pw #submit_save_top,body.modal#met
 #metro_pw .InputfieldFieldset .Inputfield>.ui-widget-header:hover,#metro_pw .InputfieldFieldsetOpen .Inputfield>.ui-widget-header:hover{text-shadow:none;}
 #metro_pw .InputfieldFileInfo{line-height:16px;font-weight:normal;font-size:12px;}#metro_pw .InputfieldFileInfo label{margin:0;}
 #metro_pw .InputfieldFileInfo:hover{border-color:#0a85ff;}
-#metro_pw .InputfieldButton .ui-widget-content,#metro_pw .InputfieldSubmit .ui-widget-content{padding-bottom:12px;border-top:1px solid #dddddd;}#metro_pw .InputfieldButton .ui-widget-content .ui-button,#metro_pw .InputfieldSubmit .ui-widget-content .ui-button{float:right;}
+#metro_pw .InputfieldButton .ui-widget-content,#metro_pw .InputfieldSubmit .ui-widget-content{padding-bottom:12px;border-top:1px solid #dddddd;-webkit-box-shadow:0 0 5px #eeeeee;-moz-box-shadow:0 0 5px #eeeeee;box-shadow:0 0 5px #eeeeee;}#metro_pw .InputfieldButton .ui-widget-content .ui-button,#metro_pw .InputfieldSubmit .ui-widget-content .ui-button{float:right;}
 #metro_pw .ui-state-hover .InputfieldFileUpload .AjaxUploadDropHere{border-color:#3399ff;color:#222;}
 #metro_pw .InputfieldSubmit .ui-widget-content,#metro_pw .InputfieldMarkup .ui-widget-content,#metro_pw .InputfieldFile .ui-widget-content{display:block;}
 #metro_pw .InputfieldStateToggle{cursor:pointer;}#metro_pw .InputfieldStateToggle span.ui-icon{float:right;}
@@ -518,14 +518,14 @@ body.modal#metro_pw #sidebar,body.modal#metro_pw #submit_save_top,body.modal#met
 #metro_pw a.PageListPage:hover{color:#0a85ff;}
 #metro_pw .PageListRoot{*zoom:1;}#metro_pw .PageListRoot:before,#metro_pw .PageListRoot:after{display:table;content:"";line-height:0;}
 #metro_pw .PageListRoot:after{clear:both;}
-#metro_pw .PageListRoot>.PageList,#metro_pw .PageListRoot>.PageList>.PageList{margin-left:0;padding-left:0;}
 #metro_pw .PageListRoot .PageListItem{background:#eeeeee;line-height:26px;border:1px solid #dddddd;margin:0 0 6px 0!important;position:relative;padding:0 8px;}#metro_pw .PageListRoot .PageListItem .PageListNumChildren{float:right;font-weight:bold;}
 #metro_pw .PageListRoot .PageListItem.PageListStatusUnpublished a{color:#999999;}
 #metro_pw .PageListRoot .PageListItem .PageListActions{margin-left:3px;}#metro_pw .PageListRoot .PageListItem .PageListActions li{border-color:#0a85ff;}#metro_pw .PageListRoot .PageListItem .PageListActions li a{padding:3px 6px;color:#222;text-transform:uppercase;font-size:11px;font-weight:bold;}
 #metro_pw .PageListRoot .PageListItem .PageListActions li a:hover{color:#222;}
 #metro_pw .PageListRoot .PageListItem.PageListItemOpen,#metro_pw .PageListRoot .PageListItem.PageListSortItem{background:#3399ff;border-color:#0a85ff;}#metro_pw .PageListRoot .PageListItem.PageListItemOpen .PageListPage,#metro_pw .PageListRoot .PageListItem.PageListSortItem .PageListPage{color:#fff!important;}
 #metro_pw .PageListPagination,#metro_pw .PageList{position:relative;}
-#metro_pw .PageListMoveNote{color:#222222;}#metro_pw .PageListMoveNote a{color:#fff;text-transform:uppercase;background:#cc0000;position:absolute;border:1px solid #990000;right:-1px;top:-1px;bottom:-1px;padding:1px 8px;}
+#metro_pw .PageListMoveNote{color:#222222;}#metro_pw .PageListMoveNote a{color:#fff;text-transform:uppercase;background:#cc0000;position:absolute;font-weight:bold;border:1px solid #990000 !important;right:-1px;top:-1px;bottom:-1px;padding:0 8px;}
+#metro_pw .PageListMoveNote a:hover{background:#990000 !important;}
 #metro_pw .PageListPagination{padding:5px 0 8px 0;}#metro_pw .PageListPagination li a{background:transparent;padding:3px 8px;margin:4px 0;}
 #metro_pw .PageListPagination li.PageListPagination0:last-child{background-position:-454px -72px;}
 #metro_pw .PageListPagination li.PageListPaginationCurrent{background:#fff!important;}#metro_pw .PageListPagination li.PageListPaginationCurrent a{background:#999999;color:#fff;opacity:1!important;}
@@ -538,7 +538,6 @@ body.modal#metro_pw #sidebar,body.modal#metro_pw #submit_save_top,body.modal#met
 #metro_pw .PageListActionMore{display:block!important;background:#999999;}#metro_pw .PageListActionMore a{margin:0 0 12px 0;padding:4px;display:block!important;color:#fff;}
 #metro_pw .PageListActionMore a:hover{background:#3399ff;}
 #metro_pw .PageListLoading{background:#3399ff url(less/../images/loading.gif) top left;position:absolute;top:-1px;left:-1px;height:100%;width:0;padding:1px;}
-#metro_pw #PageListContainer .PageListItem.PageListTemplate_home{margin:0 0 20px 0!important;}
 #metro_pw .asmList{margin-bottom:12px;padding:0;}
 #metro_pw .InputfieldPageListSelectMultiple ol li,#metro_pw .asmListItem{margin:0 0 6px 0!important;width:auto;}#metro_pw .InputfieldPageListSelectMultiple ol li span,#metro_pw .asmListItem span{padding:0;line-height:25px;}
 #metro_pw .InputfieldPageListSelectMultiple ol li .ui-icon,#metro_pw .asmListItem .ui-icon{margin:4px!important;}

@@ -11,10 +11,10 @@ a.PageListPage:hover {
 
 .PageListRoot{
 	.clearfix();
-	> .PageList, > .PageList > .PageList {
-		margin-left: 0;
-		padding-left: 0;
-	}
+	// > .PageList, > .PageList > .PageList {
+	// 	margin-left: 0;
+	// 	padding-left: 0;
+	// }
 
 
 	.PageListItem {
@@ -73,11 +73,15 @@ a.PageListPage:hover {
 		text-transform: uppercase;
 		background: @error;
 		position: absolute;
-		border: 1px solid @errorDark;
+		font-weight: bold;
+		border: 1px solid @errorDark!important;
 		right: -1px;
 		top: -1px;
 		bottom: -1px;
-		padding: 1px 8px;
+		padding: 0 8px;
+	}	
+	a:hover{ // this should always be the cancel link I believe...
+		background: @errorDark!important;
 	}
 
 }
@@ -166,8 +170,8 @@ a.PageListPage:hover {
 	width: 0;
 	padding: 1px;
 }
-#PageListContainer{
-	.PageListItem.PageListTemplate_home{
-		margin: 0 0 20px 0!important;
-	}
-}
+// #PageListContainer{
+// 	.PageListItem.PageListTemplate_home{
+// 		margin: 0 0 20px 0!important;
+// 	}
+// }
