@@ -497,9 +497,10 @@ body.modal#metro_pw #sidebar,body.modal#metro_pw #submit_save_top,body.modal#met
 #metro_pw .InputfieldFieldset .Inputfield>.ui-widget-header:hover,#metro_pw .InputfieldFieldsetOpen .Inputfield>.ui-widget-header:hover{text-shadow:none;}
 #metro_pw .InputfieldFileInfo{line-height:16px;font-weight:normal;font-size:12px;}#metro_pw .InputfieldFileInfo label{margin:0;}
 #metro_pw .InputfieldFileInfo:hover{border-color:#0a85ff;}
-#metro_pw #ProcessPageEdit>.Inputfields{overflow:hidden;padding:13px 10px;border:1px solid #dddddd !important;-webkit-box-shadow:0 0 5px #eeeeee;-moz-box-shadow:0 0 5px #eeeeee;box-shadow:0 0 5px #eeeeee;}#metro_pw #ProcessPageEdit>.Inputfields .ui-button{float:right;margin:0;}
-#metro_pw #ProcessPageEdit>.Inputfields>.Inputfield{float:right;clear:none;margin:0;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}
-#metro_pw #ProcessPageEdit>.Inputfields .ui-widget-content{padding:0;border:none;margin:0;}
+#metro_pw .InputfieldButton .ui-widget-content,#metro_pw .InputfieldSubmit .ui-widget-content{padding-bottom:12px;border-top:1px solid #dddddd;-webkit-box-shadow:0 0 5px #eeeeee;-moz-box-shadow:0 0 5px #eeeeee;box-shadow:0 0 5px #eeeeee;}
+#metro_pw #ProcessPageEdit.ProcessPageEditContent>.Inputfields{overflow:hidden;padding:13px 10px;border:1px solid #dddddd !important;-webkit-box-shadow:0 0 5px #eeeeee;-moz-box-shadow:0 0 5px #eeeeee;box-shadow:0 0 5px #eeeeee;}#metro_pw #ProcessPageEdit.ProcessPageEditContent>.Inputfields .ui-button{float:right;margin:0;}
+#metro_pw #ProcessPageEdit.ProcessPageEditContent>.Inputfields>.Inputfield{float:right;clear:none;margin:0;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}
+#metro_pw #ProcessPageEdit.ProcessPageEditContent>.Inputfields .ui-widget-content{padding:0;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;border:none;margin:0;}
 #metro_pw .ui-state-hover .InputfieldFileUpload .AjaxUploadDropHere{border-color:#3399ff;color:#222;}
 #metro_pw .InputfieldSubmit .ui-widget-content,#metro_pw .InputfieldMarkup .ui-widget-content,#metro_pw .InputfieldFile .ui-widget-content{display:block;}
 #metro_pw .InputfieldStateToggle{cursor:pointer;}#metro_pw .InputfieldStateToggle span.ui-icon{float:right;}
