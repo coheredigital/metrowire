@@ -16,7 +16,7 @@
 					<?php if ( $p->editable() ):?>
 						<tr>
 							<td><?php echo $p->modifiedUser->name ?></td>
-							<td><a href='<?php echo $config->urls->admin."page/edit/?id={$p->id}" ?>'><?php echo $p->get('title|id') ?></a></td>
+							<td><a href='<?php echo $config->urls->admin."page/edit/?id={$p->id}" ?>'><?php echo $p->get('title|name|id') ?></a></td>
 							<td><?php echo date('M jS - g:iA', $p->modified) ?></td>
 						</tr>
 					<?php endif;?>
@@ -41,7 +41,7 @@
 					<?php if ( $p->editable() ):?>
 						<tr>
 							<td><?php echo $p->modifiedUser->name ?></td>
-							<td><a href='<?php echo $config->urls->admin."page/edit/?id={$p->id}" ?>'><?php echo $p->get('title|id') ?></a></td>
+							<td><a href='<?php echo $config->urls->admin."page/edit/?id={$p->id}" ?>'><?php echo $p->get('title|name|id') ?></a></td>
 							<td><?php echo date('M jS - g:iA', $p->modified) ?></td>
 						</tr>
 					<?php endif;?>
