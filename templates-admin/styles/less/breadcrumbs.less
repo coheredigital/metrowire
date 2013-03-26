@@ -1,6 +1,6 @@
 #breadcrumbs {
 	padding: 0;
-	margin: 0;
+	margin: 0 0 -1px 0;
 	list-style: none;
 	overflow: hidden;
 	li {
@@ -21,7 +21,7 @@
 				height: 0;
 				border-top: 17px solid transparent;           /* Go big on the size, and let overflow hide */
 				border-bottom: 17px solid transparent;
-				border-left: 13px solid darken(@grayLight, 5%);
+				border-left: 13px solid darken(@grayLighter, 5%);
 				position: absolute;
 				top: -2px;
 				right: -14px;
@@ -30,7 +30,7 @@
 			&:before {
 				right: -13px;
 				z-index: 5;
-				border-left-color: #eee;
+				border-left-color: @grayLightest;
 			}
 			&:hover {
 				color: #fff;
@@ -51,6 +51,7 @@
 
 }
 #bread{
-	background: @grayLighter;
-
+	// background: @grayLighter;
+	background: #fbfbfb;
+	border-bottom: 1px solid #eee;
 }

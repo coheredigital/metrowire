@@ -418,7 +418,7 @@ body.modal#metro_pw #sidebar,body.modal#metro_pw #submit_save_top,body.modal#met
 #metro_pw .InputfieldPageAddButton a{float:right;padding:6px 12px;text-transform:uppercase;-webkit-font-smoothing:antialiased;border:1px solid #d8dcdf;background:#eeeeee;font-weight:bold;color:#222222;}
 #metro_pw .InputfieldPageAddButton .ui-icon{display:none!important;}
 #metro_pw .InputfieldPageAddButton a:hover{border:1px solid #0a85ff;background:#3399ff;font-weight:bold;color:#fff;}
-#metro_pw #main{background:#fbfbfb;-webkit-box-shadow:0 0 8px rgba(0, 0, 0, 0.3);-moz-box-shadow:0 0 8px rgba(0, 0, 0, 0.3);box-shadow:0 0 8px rgba(0, 0, 0, 0.3);overflow:hidden;}
+#metro_pw #main{border-top:1px solid #fff;background:#fbfbfb;-webkit-box-shadow:0 0 8px rgba(0, 0, 0, 0.3);-moz-box-shadow:0 0 8px rgba(0, 0, 0, 0.3);box-shadow:0 0 8px rgba(0, 0, 0, 0.3);overflow:hidden;}
 #metro_pw #header{border-top:6px solid #3399ff;background:#222;*zoom:1;}#metro_pw #header:before,#metro_pw #header:after{display:table;content:"";line-height:0;}
 #metro_pw #header:after{clear:both;}
 #metro_pw #footer{width:100%;clear:both;padding:24px 0;}#metro_pw #footer h2{color:#222222;}
@@ -453,13 +453,13 @@ body.modal#metro_pw #sidebar,body.modal#metro_pw #submit_save_top,body.modal#met
 #metro_pw .WireTabs li a.on:hover,#metro_pw .WireTabs li a.on{background:#3399ff;border-color:#0a85ff;color:#fff;}
 #metro_pw .WireTabs button{float:right;margin:0!important;}
 #metro_pw .fixedNav .WireTabs{position:fixed;left:0;right:0;z-index:100;background:#fff;-webkit-box-shadow:0 0 6px #dddddd;-moz-box-shadow:0 0 6px #dddddd;box-shadow:0 0 6px #dddddd;max-width:1200px;width:auto;margin:0 auto;top:-1px;}
-#metro_pw #breadcrumbs{padding:0;margin:0;list-style:none;overflow:hidden;}#metro_pw #breadcrumbs li{display:inline-block;}#metro_pw #breadcrumbs li a{color:#999999;font-size:11px;padding:0 8px 0 24px;font-weight:bold;display:block;line-height:30px;position:relative;text-transform:uppercase;}#metro_pw #breadcrumbs li a:after,#metro_pw #breadcrumbs li a:before{content:"";display:block;width:0;height:0;border-top:17px solid transparent;border-bottom:17px solid transparent;border-left:13px solid #d0d0d0;position:absolute;top:-2px;right:-14px;z-index:2;}
-#metro_pw #breadcrumbs li a:before{right:-13px;z-index:5;border-left-color:#eee;}
+#metro_pw #breadcrumbs{padding:0;margin:0 0 -1px 0;list-style:none;overflow:hidden;}#metro_pw #breadcrumbs li{display:inline-block;}#metro_pw #breadcrumbs li a{color:#999999;font-size:11px;padding:0 8px 0 24px;font-weight:bold;display:block;line-height:30px;position:relative;text-transform:uppercase;}#metro_pw #breadcrumbs li a:after,#metro_pw #breadcrumbs li a:before{content:"";display:block;width:0;height:0;border-top:17px solid transparent;border-bottom:17px solid transparent;border-left:13px solid #e1e1e1;position:absolute;top:-2px;right:-14px;z-index:2;}
+#metro_pw #breadcrumbs li a:before{right:-13px;z-index:5;border-left-color:#fbfbfb;}
 #metro_pw #breadcrumbs li a:hover{color:#fff;border-color:#0a85ff;background:#3399ff;}
 #metro_pw #breadcrumbs li a:hover:before{border-left-color:#3399ff;}
 #metro_pw #breadcrumbs li a:hover:after{border-left-color:#0a85ff;}
 #metro_pw #breadcrumbs li:first-child a{padding-left:14px;}
-#metro_pw #bread{background:#eeeeee;}
+#metro_pw #bread{background:#fbfbfb;border-bottom:1px solid #eee;}
 #metro_pw .align_left{float:left;margin:0 1em 0.5em 0;}
 #metro_pw .align_right{float:right;margin:0 0 0.5em 1em;}
 #metro_pw .align_center{display:block;margin-left:auto;margin-right:auto;}
@@ -495,9 +495,9 @@ body.modal#metro_pw #sidebar,body.modal#metro_pw #submit_save_top,body.modal#met
 #metro_pw .InputfieldStateToggle.ui-widget-header.ui-state-default{background:white;}
 #metro_pw .InputfieldFieldset .Inputfield>.ui-widget-header,#metro_pw .InputfieldFieldsetOpen .Inputfield>.ui-widget-header{background:#999999;background:#fbfbfb;text-shadow:none;border-color:#dddddd;border-bottom-color:#eeeeee;color:#222222;}
 #metro_pw .InputfieldFieldset .Inputfield>.ui-widget-header:hover,#metro_pw .InputfieldFieldsetOpen .Inputfield>.ui-widget-header:hover{text-shadow:none;}
-#metro_pw .InputfieldFileInfo{line-height:16px;font-weight:normal;font-size:12px;}#metro_pw .InputfieldFileInfo label{margin:0;}
+#metro_pw .InputfieldFileInfo{line-height:16px;font-weight:normal;font-size:12px;margin:0 -1px;}#metro_pw .InputfieldFileInfo label{margin:0;}
 #metro_pw .InputfieldFileInfo:hover{border-color:#0a85ff;}
-#metro_pw .InputfieldButton .ui-widget-content,#metro_pw .InputfieldSubmit .ui-widget-content{padding-bottom:12px;border-top:1px solid #dddddd;-webkit-box-shadow:0 0 5px #eeeeee;-moz-box-shadow:0 0 5px #eeeeee;box-shadow:0 0 5px #eeeeee;}
+#metro_pw .InputfieldButton .ui-widget-content,#metro_pw .InputfieldSubmit .ui-widget-content{padding-bottom:12px;border-top:1px solid #dddddd;-webkit-box-shadow:0 0 5px #eeeeee;-moz-box-shadow:0 0 5px #eeeeee;box-shadow:0 0 5px #eeeeee;}#metro_pw .InputfieldButton .ui-widget-content .ui-button,#metro_pw .InputfieldSubmit .ui-widget-content .ui-button{float:right;margin:0;}
 #metro_pw #ProcessPageEdit.ProcessPageEditContent>.Inputfields{overflow:hidden;padding:13px 10px;border:1px solid #dddddd !important;-webkit-box-shadow:0 0 5px #eeeeee;-moz-box-shadow:0 0 5px #eeeeee;box-shadow:0 0 5px #eeeeee;}#metro_pw #ProcessPageEdit.ProcessPageEditContent>.Inputfields .ui-button{float:right;margin:0;}
 #metro_pw #ProcessPageEdit.ProcessPageEditContent>.Inputfields>.Inputfield{float:right;clear:none;margin:0;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}
 #metro_pw #ProcessPageEdit.ProcessPageEditContent>.Inputfields .ui-widget-content{padding:0;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;border:none;margin:0;}
@@ -568,7 +568,7 @@ body.modal#metro_pw #sidebar,body.modal#metro_pw #submit_save_top,body.modal#met
 #metro_pw.login #login #ProcessLoginForm .ui-widget-content,#metro_pw.login #login #ProcessLoginForm .ui-widget-header{border:none;color:#999999;padding:8px;padding-bottom:0;background:transparent;}#metro_pw.login #login #ProcessLoginForm .ui-widget-content .ui-icon,#metro_pw.login #login #ProcessLoginForm .ui-widget-header .ui-icon{display:none;}
 #metro_pw.login #login #ProcessLoginForm .ui-widget-header{font-size:11px;text-transform:uppercase;}
 #metro_pw.login #login #ProcessLoginForm #Inputfield_submit{margin:0;width:120px;padding:12px;text-align:right;}
-#metro_pw .InputfieldHidden,#metro_pw .InputfieldSubmit .ui-widget-header,#metro_pw .InputfieldPageAutocompleteNote br,#metro_pw .Inputfields>.InputfieldStateCollapsed .ui-widget-content,#metro_pw .InputfieldButton .ui-widget-header,#metro_pw .InputfieldPageAutocompleteNote br{display:none!important;}
+#metro_pw .InputfieldHidden,#metro_pw .InputfieldSubmit .ui-widget-header,#metro_pw .InputfieldPageAutocompleteNote br,#metro_pw .Inputfields>.InputfieldStateCollapsed .ui-widget-content,#metro_pw .InputfieldButton .ui-widget-header,#metro_pw .ProcessPageEditDelete #wrap_submit_save,#metro_pw .InputfieldPageAutocompleteNote br{display:none!important;}
 #metro_pw #submit_save_unpublished,#metro_pw #Inputfield_submit,#metro_pw #submit_publish,#metro_pw #submit_save{float:right;}
 #metro_pw .ui-icon{padding:0!important;}
 #metro_pw .mceLayout{margin:2px 0 14px 0!important;}
